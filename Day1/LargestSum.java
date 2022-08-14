@@ -7,10 +7,10 @@ public class LargestSum {
         LargestSum(arr, n);
 
     }
-    public static void LargestSum(int arr[],int n){
+    public static void LargestSum(int arr[],int num){
         int max_sum=arr[0];
         int curr_sum=arr[0];
-        for(int i=0;i<n;i++){
+        for(int i=0;i<num;i++){
             curr_sum+=arr[i];
 
             if(curr_sum<0)
